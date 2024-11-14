@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken'); // Importing jsonwebtoken for token handlin
 const fs = require('fs'); // Importing the file system module
 const path = require('path'); // Importing the path module for file paths
 
-const SERVER_PORT = 3010; // Defining the port for the server
+const SERVER_PORT = 3030; // Defining the port for the server
 const SECRET_KEY = 'your_secret_key'; // Secret key for JWT (should be stored securely in production)
 const USERS_DB_PATH = path.join(__dirname, 'users.json'); // Path to the user database file
 const POSTS_DB_PATH = path.join(__dirname, 'posts.json'); // Path to the post database file
